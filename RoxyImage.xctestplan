@@ -1,0 +1,32 @@
+{
+  "configurations" : [
+    {
+      "id" : "13C6F759-FEA4-4261-8AC0-B36FF3613DBB",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:",
+          "identifier" : "RoxyImage",
+          "name" : "RoxyImage"
+        }
+      ]
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "RoxyImageTests",
+        "name" : "RoxyImageTests"
+      }
+    }
+  ],
+  "version" : 1
+}
